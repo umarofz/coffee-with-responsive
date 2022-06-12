@@ -66,9 +66,6 @@
 
     &__container {
       background-image: url(./../../images/coffee__made__tablet.png);
-      background-repeat: no-repeat;
-      background-size: contain;
-      background-position: center;
       padding-top: 104px;
       padding-bottom: 104px;
       padding-left: 58px;
@@ -78,45 +75,20 @@
     }
 
     &__heading {
-      font-family: 'Fraunces';
-      font-weight: 900;
       font-size: 48px;
       line-height: 48px;
-      color: #FEFCF7;
-      margin: 0;
-      padding: 0;
       margin-bottom: 24px;
       width: 329px;
     }
 
     &__text {
-      font-family: 'Barlow';
-      font-style: normal;
-      font-weight: 400;
       font-size: 16px;
       line-height: 26px;
-      color: #FEFCF7;
-      mix-blend-mode: normal;
-      opacity: 0.8;
-      margin: 0;
-      padding: 0;
       margin-bottom: 40px;
       width: 398px;
     }
 
     &__btn {
-      background-color: #0E8784;
-      border-radius: 6px;
-      border: none;
-      overflow: none;
-      padding: 16px 31px;
-      font-family: 'Fraunces';
-      font-style: normal;
-      font-weight: 900;
-      font-size: 18px;
-      line-height: 25px;
-      text-align: center;
-      color: #FEFCF7;
     }
   }
 }
@@ -128,9 +100,6 @@
 
     &__container {
       background-image: url(./../../images/coffee__made__tablet.png);
-      background-repeat: no-repeat;
-      background-size: contain;
-      background-position: center;
       padding-top: 104px;
       padding-bottom: 104px;
       padding-left: 28px;
@@ -140,45 +109,19 @@
     }
 
     &__heading {
-      font-family: 'Fraunces';
-      font-weight: 900;
       font-size: 40px;
       line-height: 40px;
-      color: #FEFCF7;
-      margin: 0;
-      padding: 0;
-      margin-bottom: 24px;
       width: 329px;
     }
 
     &__text {
-      font-family: 'Barlow';
-      font-style: normal;
-      font-weight: 400;
       font-size: 14px;
       line-height: 24px;
-      color: #FEFCF7;
-      mix-blend-mode: normal;
-      opacity: 0.8;
-      margin: 0;
-      padding: 0;
       margin-bottom: 40px;
       width: 350px;
     }
 
     &__btn {
-      background-color: #0E8784;
-      border-radius: 6px;
-      border: none;
-      overflow: none;
-      padding: 16px 31px;
-      font-family: 'Fraunces';
-      font-style: normal;
-      font-weight: 900;
-      font-size: 18px;
-      line-height: 25px;
-      text-align: center;
-      color: #FEFCF7;
     }
   }
 }
@@ -190,9 +133,6 @@
 
     &__container {
       background-image: url(./../../images/coffee__made__tablet.png);
-      background-repeat: no-repeat;
-      background-size: contain;
-      background-position: center;
       padding-top: 104px;
       padding-bottom: 104px;
       padding-left: 38px;
@@ -202,45 +142,20 @@
     }
 
     &__heading {
-      font-family: 'Fraunces';
-      font-weight: 900;
       font-size: 30px;
       line-height: 30px;
-      color: #FEFCF7;
-      margin: 0;
-      padding: 0;
       margin-bottom: 24px;
       width: 229px;
     }
 
     &__text {
-      font-family: 'Barlow';
-      font-style: normal;
-      font-weight: 400;
       font-size: 12px;
       line-height: 22px;
-      color: #FEFCF7;
-      mix-blend-mode: normal;
-      opacity: 0.8;
-      margin: 0;
-      padding: 0;
       margin-bottom: 40px;
       width: 300px;
     }
 
     &__btn {
-      background-color: #0E8784;
-      border-radius: 6px;
-      border: none;
-      overflow: none;
-      padding: 16px 31px;
-      font-family: 'Fraunces';
-      font-style: normal;
-      font-weight: 900;
-      font-size: 18px;
-      line-height: 25px;
-      text-align: center;
-      color: #FEFCF7;
     }
   }
 }
@@ -248,13 +163,10 @@
 @media only screen and (max-width: 375px) {
   .hero {
 
-    margin-bottom: 144px;
+    margin-bottom: 120px;
 
     &__container {
       background-image: url(./../../images/coffee__made__mobile.png);
-      background-repeat: no-repeat;
-      background-size: contain;
-      background-position: center;
       padding: 100px 24px;
       align-items: center;
       text-align: center;
@@ -264,45 +176,20 @@
     }
 
     &__heading {
-      font-family: 'Fraunces';
-      font-weight: 900;
       font-size: 40px;
       line-height: 40px;
-      color: #FEFCF7;
-      margin: 0;
-      padding: 0;
       margin-bottom: 24px;
       width: 279px;
     }
 
     &__text {
-      font-family: 'Barlow';
-      font-style: normal;
-      font-weight: 400;
       font-size: 15px;
       line-height: 25px;
-      color: #FEFCF7;
-      mix-blend-mode: normal;
-      opacity: 0.8;
-      margin: 0;
-      padding: 0;
       margin-bottom: 40px;
       width: 279px;
     }
 
     &__btn {
-      background-color: #0E8784;
-      border-radius: 6px;
-      border: none;
-      overflow: none;
-      padding: 16px 31px;
-      font-family: 'Fraunces';
-      font-style: normal;
-      font-weight: 900;
-      font-size: 18px;
-      line-height: 25px;
-      text-align: center;
-      color: #FEFCF7;
     }
   }
 }
@@ -310,13 +197,10 @@
 @media only screen and (max-width: 340px) {
   .hero {
 
-    margin-bottom: 144px;
+    margin-bottom: 120px;
 
     &__container {
       background-image: url(./../../images/coffee__made__mobile.png);
-      background-repeat: no-repeat;
-      background-size: contain;
-      background-position: center;
       padding: 100px 15px;
       align-items: center;
       text-align: center;
@@ -326,45 +210,20 @@
     }
 
     &__heading {
-      font-family: 'Fraunces';
-      font-weight: 900;
       font-size: 38px;
       line-height: 38px;
-      color: #FEFCF7;
-      margin: 0;
-      padding: 0;
       margin-bottom: 24px;
       width: 279px;
     }
 
     &__text {
-      font-family: 'Barlow';
-      font-style: normal;
-      font-weight: 400;
       font-size: 14px;
       line-height: 24px;
-      color: #FEFCF7;
-      mix-blend-mode: normal;
-      opacity: 0.8;
-      margin: 0;
-      padding: 0;
       margin-bottom: 40px;
       width: 279px;
     }
 
     &__btn {
-      background-color: #0E8784;
-      border-radius: 6px;
-      border: none;
-      overflow: none;
-      padding: 16px 31px;
-      font-family: 'Fraunces';
-      font-style: normal;
-      font-weight: 900;
-      font-size: 18px;
-      line-height: 25px;
-      text-align: center;
-      color: #FEFCF7;
     }
   }
 }
@@ -372,13 +231,10 @@
 @media only screen and (max-width: 320px) {
   .hero {
 
-    margin-bottom: 144px;
+    margin-bottom: 120px;
 
     &__container {
       background-image: url(./../../images/coffee__made__mobile.png);
-      background-repeat: no-repeat;
-      background-size: contain;
-      background-position: center;
       padding: 100px 24px;
       align-items: center;
       text-align: center;
@@ -388,47 +244,24 @@
     }
 
     &__heading {
-      font-family: 'Fraunces';
-      font-weight: 900;
       font-size: 40px;
       line-height: 40px;
-      color: #FEFCF7;
-      margin: 0;
-      padding: 0;
       margin-bottom: 24px;
       margin-left: -20px;
       width: 279px;
     }
 
     &__text {
-      font-family: 'Barlow';
-      font-style: normal;
-      font-weight: 400;
       font-size: 14px;
       line-height: 24px;
       color: #FEFCF7;
       mix-blend-mode: normal;
-      opacity: 0.8;
-      margin: 0;
-      padding: 0;
       margin-bottom: 40px;
       width: 280px;
       margin-left: -24px;
     }
 
     &__btn {
-      background-color: #0E8784;
-      border-radius: 6px;
-      border: none;
-      overflow: none;
-      padding: 16px 31px;
-      font-family: 'Fraunces';
-      font-style: normal;
-      font-weight: 900;
-      font-size: 18px;
-      line-height: 25px;
-      text-align: center;
-      color: #FEFCF7;
     }
   }
 }
