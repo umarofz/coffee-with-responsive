@@ -11,18 +11,19 @@
 <body>
   <h1 class="visually-hidden">Coffee Plan</h1>
   <header class="header">
-    <div class="container">
+    <div class="container header__inner-wrapper">
       <div class="header__container">
-        <a class="header__link" href="#"><img class="header__link-logo" src="./images/coffee__logo.svg" alt="logo" width="236" height="26"></a>
+        <a class="header__link" href="./index.html"><img class="header__logo" src="./images/coffee__logo.svg" alt="logo" width="235" height="25">
+        </a>
 
         <nav class="header__nav">
           <ul class="header__list">
-            <li class="header__item">
-              <a class="header__item-link" href="./index.html">HOME</a>
+            <li class="header__item header__item-current">
+              <a class="header__item-link" href="./index.html">Home</a>
             </li>
 
             <li class="header__item">
-              <a class="header__item-link header__item-active" href="./about__us.html">ABOUT US</a>
+              <a class="header__item-link" href="./about__us.html">About Us</a>
             </li>
 
             <li class="header__item">
@@ -30,6 +31,12 @@
             </li>
           </ul>
         </nav>
+
+        <button class="header__button">
+          <img class="header__btn-img" src="./images/burger__img.svg" alt="menu" width="16" height="15">
+
+          <img class="header__btn-img-cross" src="./images/burger__cross__img.svg" alt="menu" width="16" height="15">
+        </button>
       </div>
     </div>
   </header>
@@ -227,5 +234,7 @@
       </div>
     </div>
   </footer>
+
+  <script src="./js/cross.js"></script>
 </body>
 </html>
