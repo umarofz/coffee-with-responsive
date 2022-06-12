@@ -2017,6 +2017,110 @@ img {
   width: 285px;
 }
 
+@media only screen and (max-width: 768px) {
+  .step {
+    margin-bottom: 200px;
+  }
+  .step__list {
+    margin: 0;
+    padding: 0;
+  }
+  .step__item:last-child .step__icon-wrapper::before {
+    display: none;
+  }
+  .step__icon-wrapper {
+    margin-bottom: 67px;
+    position: relative;
+  }
+  .step__icon-wrapper::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 0;
+    -webkit-transform: translateY(-100%);
+            transform: translateY(-100%);
+    display: inline-block;
+    width: 100%;
+    height: 2px;
+    z-index: -1;
+    background-color: #FDD6BA;
+  }
+  .step__icon-circle {
+    width: 31px;
+    height: 31px;
+    background-color: #FEFCF7;
+    border: 2px solid #0E8784;
+    border-radius: 50%;
+    display: inline-block;
+  }
+  .step__info-wrapper {
+    padding-right: 95px;
+  }
+  .step__item-heading {
+    font-size: 28px;
+    line-height: 32px;
+    margin-bottom: 38px;
+    width: 230px;
+  }
+  .step__item-text {
+    font-size: 15px;
+    line-height: 25px;
+    width: 212px;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .step {
+    margin-bottom: 200px;
+  }
+  .step__inner-container {
+    max-width: 327px;
+    width: 100%;
+  }
+  .step__heading {
+    font-size: 24px;
+    line-height: 32px;
+    margin-bottom: 80px;
+    text-align: center;
+  }
+  .step__list {
+    margin: 0;
+    padding: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    text-align: center;
+  }
+  .step__icon-wrapper {
+    display: none;
+  }
+  .step__info-wrapper {
+    padding-right: 95px;
+  }
+  .step__item-number {
+    margin-bottom: 24px;
+    text-align: center;
+  }
+  .step__item-heading {
+    font-size: 28px;
+    line-height: 32px;
+    margin-bottom: 24px;
+    width: 327px;
+  }
+  .step__item-text {
+    font-size: 15px;
+    line-height: 25px;
+    width: 327px;
+  }
+  .step__btn {
+    margin-left: 60px;
+  }
+}
+
 .about-hero {
   margin-bottom: 168px;
 }
