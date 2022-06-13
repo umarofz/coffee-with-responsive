@@ -4,11 +4,11 @@
 
   &__container {
     padding-top: 88px;
-  padding-bottom: 176px;
-  padding-left: 85px;
-  background-color: #2C343E;
-  position: relative;
-  border-radius: 8px;
+    padding-bottom: 176px;
+    padding-left: 85px;
+    background-color: #2C343E;
+    position: relative;
+    border-radius: 8px;
   }
 
   &__left {
@@ -16,14 +16,14 @@
 
   &__left-heading {
     margin: 0;
-  font-family: 'Fraunces';
-  font-style: normal;
-  font-weight: 900;
-  font-size: 40px;
-  line-height: 48px;
-  color: #FEFCF7;
-  margin-bottom: 32px;
-  width: 517px;
+    font-family: 'Fraunces';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 48px;
+    color: #FEFCF7;
+    margin-bottom: 32px;
+    width: 517px;
   }
 
   &__left-text {
@@ -41,13 +41,159 @@
 
   &__right {
     background-image: url(./../images/quality__bgi.png);
-  background-repeat: no-repeat;
-  width: 445px;
-  height: 474px;
-  position: absolute;
-  top: calc(-20%);
-  left: calc(100% - 530px);
-  border-radius: 8px;
+    background-repeat: no-repeat;
+    width: 445px;
+    height: 474px;
+    position: absolute;
+    top: calc(-20%);
+    left: calc(100% - 530px);
+    border-radius: 8px;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .quality {
+
+    margin-bottom: 168px;
+
+    &__container {
+      padding-top: 88px;
+      padding-bottom: 176px;
+      padding-left: 85px;
+      background-color: #2C343E;
+      position: relative;
+      border-radius: 8px;
+    }
+
+    &__left {
+    }
+
+    &__left-heading {
+      margin: 0;
+      font-family: 'Fraunces';
+      font-style: normal;
+      font-weight: 900;
+      font-size: 40px;
+      line-height: 48px;
+      color: #FEFCF7;
+      margin-bottom: 32px;
+      width: 517px;
+    }
+
+    &__left-text {
+      margin: 0;
+      font-family: 'Barlow';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 26px;
+      color: #FEFCF7;
+      mix-blend-mode: normal;
+      opacity: 0.8;
+      width: 540px;
+    }
+
+    &__right {
+      background-image: url(./../images/quality__bgi.png);
+      background-repeat: no-repeat;
+      width: 445px;
+      height: 474px;
+      position: absolute;
+      top: calc(-20%);
+      left: calc(100% - 490px);
+      border-radius: 8px;
+    }
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .quality {
+
+    margin-bottom: 128px;
+
+    &__container {
+      padding: 224px 74px 83px 74px;
+      background-color: #2C343E;
+      position: relative;
+      border-radius: 8px;
+    }
+
+    &__left {
+    }
+
+    &__left-heading {
+      font-size: 32px;
+      line-height: 48px;
+      margin-bottom: 24px;
+      text-align: center;
+    }
+
+    &__left-text {
+      font-size: 15px;
+      line-height: 25px;
+      text-align: center;
+      color: #FEFCF7;
+      mix-blend-mode: normal;
+      opacity: 0.8;
+      width: 540px;
+    }
+
+    &__right {
+      background-image: url(./../../images/quality__bgi__tablet.png);
+      background-repeat: no-repeat;
+      width: 573px;
+      height: 320px;
+      position: absolute;
+      top: calc(-30%);
+      left: calc(100% - 650px);
+      border-radius: 8px;
+    }
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .quality {
+
+    margin-bottom: 120px;
+
+    &__container {
+      padding: 142px 24px 61px 24px;
+      background-color: #2C343E;
+      position: relative;
+      border-radius: 8px;
+    }
+
+    &__left {
+    }
+
+    &__left-heading {
+      font-size: 28px;
+      line-height: 28px;
+      margin-bottom: 24px;
+      text-align: center;
+      width: 279px;
+    }
+
+    &__left-text {
+      font-size: 15px;
+      line-height: 25px;
+      text-align: center;
+      color: #FEFCF7;
+      mix-blend-mode: normal;
+      opacity: 0.8;
+      width: 279px;
+    }
+
+    &__right {
+      background-image: url(./../../images/quality__bgi__mobile.png);
+      background-repeat: no-repeat;
+      width: 279px;
+      height: 156px;
+      position: absolute;
+      top: calc(-15%);
+      left: calc(100% - 307px);
+      border-radius: 8px;
+    }
   }
 }
 
