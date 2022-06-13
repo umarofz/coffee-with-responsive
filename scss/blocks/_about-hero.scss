@@ -43,6 +43,11 @@
 
     margin-bottom: 152px;
 
+    &__inner-wrapper {
+      max-width: 689px;
+      width: 100%;
+    }
+
     &__container {
       background-image: url(./../../images/about__us__bgi__tablet.png);
       background-repeat: no-repeat;
