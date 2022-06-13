@@ -2264,6 +2264,118 @@ img {
   width: 445px;
 }
 
+@media only screen and (max-width: 768px) {
+  .about-hero {
+    margin-bottom: 152px;
+  }
+  .about-hero__container {
+    background-image: url(./../../images/about__us__bgi__tablet.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    padding-top: 118px;
+    padding-bottom: 118px;
+    padding-left: 58px;
+  }
+  .about-hero__heading {
+    font-size: 32px;
+    line-height: 40px;
+    margin-bottom: 24px;
+    color: #FEFCF7;
+  }
+  .about-hero__text {
+    font-size: 15px;
+    line-height: 25px;
+    width: 398px;
+    opacity: 0.8;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .about-hero {
+    margin-bottom: 152px;
+  }
+  .about-hero__container {
+    background-image: url(./../../images/about__us__bgi__tablet.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    padding-top: 118px;
+    padding-bottom: 118px;
+    padding-left: 50px;
+  }
+  .about-hero__heading {
+    font-size: 32px;
+    line-height: 40px;
+    margin-bottom: 24px;
+    color: #FEFCF7;
+  }
+  .about-hero__text {
+    font-size: 15px;
+    line-height: 24px;
+    width: 398px;
+    opacity: 0.8;
+  }
+}
+
+@media only screen and (max-width: 490px) {
+  .about-hero {
+    margin-bottom: 152px;
+  }
+  .about-hero__container {
+    background-image: url(./../../images/about__us__bgi__tablet.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    padding-top: 118px;
+    padding-bottom: 118px;
+    padding-left: 40px;
+  }
+  .about-hero__heading {
+    font-size: 32px;
+    line-height: 40px;
+    margin-bottom: 24px;
+    color: #FEFCF7;
+  }
+  .about-hero__text {
+    font-size: 13px;
+    line-height: 23px;
+    width: 350px;
+    opacity: 0.8;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .about-hero {
+    margin-bottom: 120px;
+  }
+  .about-hero__container {
+    background-image: url(./../../images/about__us__bgi__mobile.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    padding-top: 111px;
+    padding-bottom: 87px;
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+  .about-hero__left {
+    text-align: center;
+  }
+  .about-hero__heading {
+    font-size: 28px;
+    line-height: 28px;
+    margin-bottom: 24px;
+    color: #FEFCF7;
+  }
+  .about-hero__text {
+    font-size: 15px;
+    line-height: 25px;
+    width: 279px;
+    opacity: 0.8;
+  }
+}
+
 @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
   __container {
     background-image: url("./../../images/about__us__bgi@2x.png");
