@@ -112,6 +112,8 @@
     margin-bottom: 200px;
 
     &__inner-container {
+      max-width: 689px;
+      width: 100%;
     }
 
     &__container {
@@ -126,6 +128,7 @@
     }
 
     &__item {
+      margin-right: -85px;
     }
 
     &__item:last-child &__icon-wrapper::before {
@@ -143,7 +146,7 @@
         left: 0;
         transform: translateY(-100%);
         display: inline-block;
-        width: 100%;
+        width: 250px;
         height: 2px;
         z-index: -1;
         background-color: #FDD6BA;

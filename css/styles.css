@@ -2130,9 +2130,16 @@ img {
   .step {
     margin-bottom: 200px;
   }
+  .step__inner-container {
+    max-width: 689px;
+    width: 100%;
+  }
   .step__list {
     margin: 0;
     padding: 0;
+  }
+  .step__item {
+    margin-right: -85px;
   }
   .step__item:last-child .step__icon-wrapper::before {
     display: none;
@@ -2149,7 +2156,7 @@ img {
     -webkit-transform: translateY(-100%);
             transform: translateY(-100%);
     display: inline-block;
-    width: 100%;
+    width: 250px;
     height: 2px;
     z-index: -1;
     background-color: #FDD6BA;
