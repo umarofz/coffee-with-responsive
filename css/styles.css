@@ -684,13 +684,6 @@ img {
     margin-bottom: 40px;
     width: 398px;
   }
-  .hero .container {
-    max-width: 729px;
-    margin-left: auto;
-    margin-right: auto;
-    padding-left: 20px;
-    padding-right: 20px;
-  }
 }
 
 @media only screen and (max-width: 400px) {
