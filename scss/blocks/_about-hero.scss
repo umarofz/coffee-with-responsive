@@ -38,7 +38,7 @@
   }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 800px) {
   .about-hero {
 
     margin-bottom: 152px;
@@ -77,10 +77,15 @@
   }
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 430px) {
   .about-hero {
 
     margin-bottom: 152px;
+
+    &__inner-wrapper {
+      max-width: 689px;
+      width: 100%;
+    }
 
     &__container {
       background-image: url(./../../images/about__us__bgi__tablet.png);
@@ -89,7 +94,8 @@
       background-position: center;
       padding-top: 118px;
       padding-bottom: 118px;
-      padding-left: 50px;
+      padding-left: 58px;
+      width: 689px;
     }
 
     &__left {
@@ -104,48 +110,14 @@
 
     &__text {
       font-size: 15px;
-      line-height: 24px;
+      line-height: 25px;
       width: 398px;
       opacity: 0.8;
     }
   }
 }
 
-@media only screen and (max-width: 490px) {
-  .about-hero {
-
-    margin-bottom: 152px;
-
-    &__container {
-      background-image: url(./../../images/about__us__bgi__tablet.png);
-      background-repeat: no-repeat;
-      background-size: contain;
-      background-position: center;
-      padding-top: 118px;
-      padding-bottom: 118px;
-      padding-left: 40px;
-    }
-
-    &__left {
-    }
-
-    &__heading {
-      font-size: 32px;
-      line-height: 40px;
-      margin-bottom: 24px;
-      color: #FEFCF7;
-    }
-
-    &__text {
-      font-size: 13px;
-      line-height: 23px;
-      width: 350px;
-      opacity: 0.8;
-    }
-  }
-}
-
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 400px) {
   .about-hero {
 
     margin-bottom: 120px;
@@ -159,6 +131,7 @@
       padding-bottom: 87px;
       padding-left: 24px;
       padding-right: 24px;
+      width: 327px;
     }
 
     &__left {
@@ -177,6 +150,7 @@
       line-height: 25px;
       width: 279px;
       opacity: 0.8;
+      text-align: center;
     }
   }
 }
