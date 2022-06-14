@@ -64,13 +64,13 @@
   }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 800px) {
   .collection {
 
     margin-bottom: 200px;
 
     &__inner-container {
-      max-width: 689px;
+      max-width: 729px;
       width: 100%;
     }
 
@@ -144,7 +144,7 @@
   }
 }
 
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 400px) {
   .collection {
 
     margin-bottom: 120px;
